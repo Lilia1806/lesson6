@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/l"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.SecondFragment">
+
+
+    <EditText
+        android:id="@+id/pas_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="250dp"
+        android:hint="Введите текст"
+        android:padding="15dp"
+        android:textColorHint="@color/black" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt_first"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="40dp"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="вперед"
+        android:textColor="@color/black"
+        app:cornerRadius="20sp" />
+
+</FrameLayout>
